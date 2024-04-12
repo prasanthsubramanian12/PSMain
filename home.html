@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personalised Skill</title>
+    <style>
+         body
+        {
+            width: 100vw;
+            background-color:blanchedalmond;
+            justify-content: start;
+            background-repeat: no-repeat;
+            display:flex;
+        } 
+        .leftside
+        {
+            height: 100vh;
+            width: 30vh;
+            background-color: white;
+            position: fixed;
+            gap: 100px;
+            margin-left: 0%;
+            margin-top: 0%;
+        }
+        .search
+        {
+            border-width: 40%;
+        }
+        .logo
+        {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .btn
+        {
+            color: black;
+            width: 100%;
+            height: 90%;
+            padding: 16px;
+            border-radius: 6px;
+            border: 0px;
+            background-color: white;
+
+        }
+        .btn:hover{
+            transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            background-color: aquamarine;
+        }
+        .top
+        {
+            width: 100vw;
+            height: 10vh;
+            background-color: white;
+            margin-top: 0%;
+        }
+        img
+        {
+            width: 20%;
+            text-align: center;
+        }
+        .form{
+            display: block;
+            gap: 50px;
+            border-width: 2px;
+            border-color: black;
+            margin-bottom: 20px;
+            color: black;
+            border-color: black;
+            background-color: white;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="form"  style="margin-top: 20px">
+        <div><input class="search" type="text"  placeholder="Search"/></div></div>
+        </div>
+    </div>
+    <aside class="leftside">
+        <div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h2>Slot Portal</h2>
+        </div>
+        <div>
+            <h3>Dashboard</h3>
+        </div>
+        <div>
+            <a href="dash.html"><button class="btn">DASHBOARD</button></a>
+        </div>
+        <div>
+            <h3>Course Action</h3>
+        </div>
+        <div>
+            <a href="acourse.html"><button class="btn">AVAILABLE COURSES</button></a>
+        </div>
+        <div>
+            <a href="mycourse.html"><button class="btn">MY COURSES</button></a>
+        </div>
+        <div>
+            <a href="ecourse.html"><button class="btn">ELIGIBLE COURSES</button></a>
+        </div>
+        <div>
+            <h3>Others</h3>
+        </div>
+        <div>
+            <a href="login.html"><button class="btn">SIGN OUT</button></a>
+        </div>
+        </div>
+    </aside>
+    
+</body>
+</html>
